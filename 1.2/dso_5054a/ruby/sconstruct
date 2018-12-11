@@ -1,0 +1,53 @@
+def remove_from_list(my_list,remove_list):
+    for item in remove_list:
+        try:
+            my_list.remove(item)
+        except ValueError:
+            pass
+        #end:
+    # end
+    return my_list
+
+
+### get the slocal variable from the environment
+import os
+slocal=os.environ["SLOCAL"]
+
+
+## setup my local library additions
+local_libs=slocal + '/lib'
+local_include=slocal + '/include'
+
+
+install_dir=slocal + '/bin'
+
+
+
+
+
+env = Environment()
+
+
+#### all files in directory
+import glob
+import string
+
+
+import copy
+
+
+#script_files=glob.glob('*server*')
+#script_files.append(glob.glob('*.rb'))
+
+script_files=[]
+
+
+
+script_files.append('ruby_text_client.rb')
+
+
+#script_files.append('launch_tes_client')
+for this_file in script_files:
+    env.Alias(target="install", 
+              source=env.Install(dir=install_dir,
+                                 source=this_file))

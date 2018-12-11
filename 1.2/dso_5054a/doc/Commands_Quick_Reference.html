@@ -1,0 +1,1334 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+   <title>Command Summary</title><style type="text/css">/*
+=====================================================================
+CSS stylesheet for DocBook XSL translation to DDS format HTML Help.
+=====================================================================
+*/
+
+a:active {
+ color: #0000CC
+}
+
+a:hover {
+ color: #CC0033
+}
+
+a:link {
+ color: #3366CC
+}
+
+a:visited {
+ color: #9999CC
+}
+
+body {
+ background-color: #FFFFFF;
+ color: #000000;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+ color: #003366;
+ font-size: 14px; font-style: normal; font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal
+}
+
+h3 {
+ color: #000000;
+ font-size: 13px; font-style: normal; font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal
+}
+
+h4 {
+ color: #000000;
+ font-size: 12px; font-style: italic; font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal
+}
+
+div.book div.titlepage h1 { 
+ list-style-type: none;
+ padding-left: 6em;
+ padding-top: 2.25em;
+ padding-bottom: 2.25em;
+ background-image: url("images/spark_small.gif");
+ background-repeat: no-repeat;
+ background-position: center left;
+ color: #003366;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 20px; font-style: normal; font-weight: bold;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal;
+}
+
+div.preface div.titlepage h2,
+div.chapter div.titlepage h2,
+div.sect1 div.titlepage h2,
+div.sect2 div.titlepage h3,
+div.sect3 div.titlepage h4,
+div.sect4 div.titlepage h5,
+div.sect5 div.titlepage h6,
+div.refentry div.refnamediv p,
+{
+ color: #000000;
+ font-size: 18px; font-style: normal; font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal
+}
+
+div.sect1 h3,
+div.sect2 h4,
+div.sect3 h5,
+div.sect4 h6,
+div.sect5 h7,
+{
+ color: #003366;
+ font-size: 14px; font-style: normal; font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal
+}
+
+pre {
+ color: #000000;
+ font-family: monospace;
+ font-size: 12px; font-style: normal; font-weight: normal;
+ /*
+ margin-left: 0em; margin-top: 0em; margin-bottom: 0em;
+ */
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: pre
+}
+
+code {
+ color: #000000;
+ font-family: monospace;
+ font-size: 12px; font-style: normal; font-weight: normal;
+ margin-left: 0em; margin-top: 0em; margin-bottom: 0em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: pre
+}
+
+table, caption, tr, th, td, ol, ul, h5, p, div, dt, dd,
+{
+ color: #000000;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+}
+
+div.toc dt, div.highlights p {
+ margin-top: 0.3em;   /* Same as normal bulleted list. */
+ margin-bottom: 0.3em;
+}
+
+/*
+dt {
+ color: #000000;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-top: 1.5em;
+ margin-bottom: 0.5em;
+ font-size: 12px
+}
+
+dd {
+ color: #000000;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-top: 0.5em;
+ margin-bottom: 1.0em;
+ font-size: 12px
+}
+*/
+
+div img, table {
+ margin-bottom: 20px;
+}
+
+/*
+ * For inline graphics:
+ */
+p img {
+ margin-bottom: 0px;
+}
+
+div.sect2 div.titlepage h3 img,
+{
+ margin-bottom: 0px;
+}
+
+a img,
+{
+ margin-bottom: 0px;
+ border-width: 0px;
+}
+
+.guibutton,
+.guilabel,
+.guimenu,
+.guimenuitem,
+{
+ font-weight: bold;
+}
+
+div.itemizedlist p {
+ margin-top: 0.3em;   /* Same as normal bulleted list. */
+ margin-bottom: 0.3em;
+}
+
+div.table table,
+div.table th,
+div.table td,
+{
+ border-style: solid;
+ border-color: #cccccc;
+}
+
+div.informaltable table,
+{
+ border-collapse: collapse;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #999999;
+ /*
+ border-style: hidden;
+ border-color: #cccccc;
+ */
+}
+
+div.informaltable th,
+div.informaltable td,
+{
+ border-width: 1px;
+ border-style: solid;
+ border-color: #999999;
+ /*
+ border-style: hidden;
+ border-color: #cccccc;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #cccccc;
+ */
+}
+
+div.table table,
+{
+ border-collapse: collapse;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #999999;
+ /*
+ border-style: hidden;
+ border-color: #cccccc;
+ */
+}
+
+div.table th,
+div.table td,
+{
+ border-width: 1px;
+ border-style: solid;
+ border-color: #999999;
+ /*
+ border-style: hidden;
+ border-color: #cccccc;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #cccccc;
+ */
+}
+
+div.simplemsgentry,
+{
+}
+
+div.simplemsgentry p,
+{
+ font-weight: bold;
+}
+
+div.msgexplan,
+{
+}
+
+div.msgexplan p b,
+{
+}
+
+div.msgexplan p,
+{
+ font-weight: normal;
+ margin-left: 3em;
+}
+
+div.refentry div.refnamediv h2,
+{
+ display: none;
+}
+
+ /*
+div.refentry div.refnamediv p,
+{
+ color: #000000;
+ font-size: 18px; font-style: normal; font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ margin-left: 0em; margin-top: 0.5em; margin-bottom: 0.5em;
+ text-align: left; text-indent: 0em; text-decoration: none;
+ white-space: normal;
+ border: 2px solid black;
+ line-height: -18px;
+ vertical-align: baseline;
+}
+ */
+
+div.sect2 div.titlepage h3 img,
+div.refentry div.refnamediv p a img,
+div.itemizedlist ul li p a img,
+dl dt span.sect2 a img,
+p a img,
+{
+ vertical-align: middle;
+}
+
+</style><meta name="generator" content="DocBook XSL Stylesheets V1.70.1"><link rel="start" href="http://xcalscope1.gsfc.nasa.gov/index.htm" title="Agilent 6000 Series Oscilloscopes"><link rel="up" href="http://xcalscope1.gsfc.nasa.gov/Quick_Ref.htm" title="Commands Quick Reference"><link rel="prev" href="http://xcalscope1.gsfc.nasa.gov/Quick_Ref.htm" title="Commands Quick Reference"><link rel="next" href="http://xcalscope1.gsfc.nasa.gov/Syntax.htm" title="Syntax Elements"></head><body alink="#0000ff" bgcolor="white" text="black" vlink="#840084" link="#0000ff"><p align="right"><a href="http://www.agilent.com/find/mso6000-manuals" style="text-decoration: none;"><font color="#0099cc" size="1"><b>Commands Quick Reference</b></font></a><br></p><hr color="#0099cc" noshade="true"><p></p><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both;"><a name="command_summary"></a>Command Summary</h2></div></div></div><div class="table"><a name="d0e1264"></a><p class="title"><b>Common (*) Commands Summary:</b></p><div class="table-contents"><table summary="Common (*) Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>*CLS</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>*ESE
+          &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>*ESE?</code></strong></td><td><p><strong class="userinput"><code>&lt;mask&gt; ::= 0 to 255; an integer in NR1
+          format:</code></strong></p><pre class="synopsis">Bit Weight Name Enables
+--- ------ ---- ----------
+ 7    128  PON  Power On
+ 6     64  URQ  User Request
+ 5     32  CME  Command Error
+ 4     16  EXE  Execution Error
+ 3      8  DDE  Dev. Dependent Error
+ 2      4  QYE  Query Error
+ 1      2  RQL  Request Control
+ 0      1  OPC  Operation Complete</pre></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>*ESR?</code></strong></td><td><strong class="userinput"><code>&lt;status&gt; ::= 0 to 255; an integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>*IDN?</code></strong></td><td><p><strong class="userinput"><code>AGILENT TECHNOLOGIES,&lt;model&gt;,
+          &lt;serial
+          number&gt;,X.XX.XX</code></strong></p><p><strong class="userinput"><code>&lt;model&gt;
+          ::= the model number of the
+          instrument</code></strong></p><p><strong class="userinput"><code>&lt;serial number&gt;
+          ::= the serial number of the
+          instrument</code></strong></p><p><strong class="userinput"><code>&lt;X.XX.XX&gt; ::=
+          the software revision of the instrument</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>*LRN?</code></strong></td><td><strong class="userinput"><code>&lt;learn_string&gt; ::= current instrument setup
+          as a block of data in IEEE 488.2 # format</code></strong></td></tr><tr><td><strong class="userinput"><code>*OPC</code></strong></td><td><strong class="userinput"><code>*OPC?</code></strong></td><td><strong class="userinput"><code>ASCII "1" is placed in the output queue when all
+          pending device operations have completed.</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>*OPT?</code></strong></td><td><p><strong class="userinput"><code>&lt;return_value&gt; ::= 0,0,&lt;license
+          info&gt;</code></strong></p><p><strong class="userinput"><code>&lt;license info&gt; ::=
+          &lt;All&nbsp;field&gt;, &lt;reserved&gt;, &lt;Factory&nbsp;MSO&gt;,
+          &lt;Upgraded&nbsp;MSO&gt;, &lt;Probe&nbsp;field&gt;, &lt;Memory&gt;,
+          &lt;Low&nbsp;Speed&nbsp;Serial&gt;, &lt;reserved&gt;,
+          &lt;reserved&gt;</code></strong></p><p><strong class="userinput"><code>&lt;All&nbsp;field&gt;
+          ::= {0 | All}</code></strong></p><p><strong class="userinput"><code>&lt;reserved&gt;
+          ::= 0</code></strong></p><p><strong class="userinput"><code>&lt;Factory&nbsp;MSO&gt;
+          ::= {0 |
+          MSO}</code></strong></p><p><strong class="userinput"><code>&lt;Upgraded&nbsp;MSO&gt;
+          ::= {0 |
+          MSO}</code></strong></p><p><strong class="userinput"><code>&lt;Probe&nbsp;field&gt; ::=
+          0</code></strong></p><p><strong class="userinput"><code>&lt;Memory&gt; ::= {0 | mem2M |
+          mem8M}</code></strong></p><p><strong class="userinput"><code>&lt;Low&nbsp;Speed&nbsp;Serial&gt;
+          ::= {0 | LSS}</code></strong></p><p><strong class="userinput"><code>&lt;reserved&gt;
+          ::= 0</code></strong></p><p><strong class="userinput"><code>&lt;reserved&gt; ::=
+          0</code></strong></p></td></tr><tr><td><strong class="userinput"><code>*RCL
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+          8 | 9}</code></strong></td></tr><tr><td><strong class="userinput"><code>*RST</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>See *RST
+          (Reset)</code></strong></td></tr><tr><td><strong class="userinput"><code>*SAV
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+          8 | 9}</code></strong></td></tr><tr><td><strong class="userinput"><code>*SRE
+          &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>*SRE?</code></strong></td><td><p><strong class="userinput"><code>&lt;mask&gt; ::= sum of all bits that are
+          set, 0 to 255; an integer in NR1 format. &lt;mask&gt; ::= following
+          values:</code></strong></p><pre class="synopsis">Bit Weight Name Enables
+--- ------ ---- ----------
+ 7    128  OPER Operation Status Reg
+ 6     64  ---- (Not used.)
+ 5     32  ESB  Event Status Bit
+ 4     16  MAV  Message Available
+ 3      8  ---- (Not used.)
+ 2      4  MSG  Message
+ 1      2  USR  User
+ 0      1  TRG  Trigger</pre></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>*STB?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= 0 to 255; an integer in
+          NR1 format, as shown in the following:</code></strong></p><pre class="synopsis">Bit Weight Name "1" Indicates
+--- ------ ---- ---------------
+ 7    128  OPER Operation status
+                condition occurred.
+ 6     64  RQS/ Instrument is
+           MSS  requesting service.
+ 5     32  ESB  Enabled event status
+                condition occurred.
+ 4     16  MAV  Message available.
+ 3      8  ---- (Not used.)
+ 2      4  MSG  Message displayed.
+ 1      2  USR  User event
+                condition occurred.
+ 0      1  TRG  A trigger occurred.</pre></td></tr><tr><td><strong class="userinput"><code>*TRG</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>*TST?</code></strong></td><td><strong class="userinput"><code>&lt;result&gt; ::= 0 or non-zero value; an integer
+          in NR1 format</code></strong></td></tr><tr><td><strong class="userinput"><code>*WAI</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e1500"></a><p class="title"><b>Root (:) Commands Summary:</b></p><div class="table-contents"><table summary="Root (:) Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:ACTivity</code></strong></td><td><strong class="userinput"><code>:ACTivity?</code></strong></td><td><p><strong class="userinput"><code>&lt;return value&gt; ::=
+          &lt;edges&gt;,&lt;levels&gt;</code></strong></p><p><strong class="userinput"><code>&lt;edges&gt;
+          ::= presence of edges (32-bit integer in NR1
+          format)</code></strong></p><p><strong class="userinput"><code>&lt;levels&gt; ::=
+          logical highs or lows (32-bit integer in NR1
+          format)</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:AER?</code></strong></td><td><strong class="userinput"><code>{0 | 1}; an integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:AUToscale
+          [&lt;source&gt;[,..,&lt;source&gt;]]</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= CHANnel&lt;n&gt; for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | POD1 | POD2} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; can be
+          repeated up to 5 times</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+          ::= 1-2 or 1-4 in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:AUToscale:AMODE
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:AUToscale:AMODE?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {NORMal |
+          CURRent}}</code></strong></td></tr><tr><td><strong class="userinput"><code>:AUToscale:CHANnels
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:AUToscale:CHANnels?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {ALL |
+          DISPlayed}}</code></strong></td></tr><tr><td><strong class="userinput"><code>:BLANk
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt;} |
+          FUNCtion | MATH | SBUS} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | POD{1 | 2} | BUS{1 | 2}
+          | FUNCtion | MATH | SBUS} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CDISplay</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>:DIGitize
+          [&lt;source&gt;[,..,&lt;source&gt;]]</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH | SBUS} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | POD{1 | 2} | BUS{1 | 2}
+          | FUNCtion | MATH | SBUS} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; can be
+          repeated up to 5 times</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+          ::= 1-2 or 1-4 in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:HWEenable
+          &lt;n&gt;</code></strong></td><td><strong class="userinput"><code>:HWEenable?</code></strong></td><td><strong class="userinput"><code>&lt;n&gt; ::= 16-bit integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:HWERregister:CONDition?</code></strong></td><td><strong class="userinput"><code>&lt;n&gt; ::= 16-bit integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:HWERegister[:EVENt]?</code></strong></td><td><strong class="userinput"><code>&lt;n&gt; ::= 16-bit integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:MERGe &lt;pixel
+          memory&gt;</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>&lt;pixel memory&gt; ::= {PMEMory{0 | 1 | 2 | 3 |
+          4 | 5 | 6 | 7 | 8 | 9}}</code></strong></td></tr><tr><td><strong class="userinput"><code>:OPEE
+          &lt;n&gt;</code></strong></td><td><strong class="userinput"><code>:OPEE?</code></strong></td><td><strong class="userinput"><code>&lt;n&gt; ::= 16-bit integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:OPERregister:CONDition?</code></strong></td><td><strong class="userinput"><code>&lt;n&gt; ::= 16-bit integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:OPERegister[:EVENt]?</code></strong></td><td><strong class="userinput"><code>&lt;n&gt; ::= 16-bit integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:OVLenable
+          &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:OVLenable?</code></strong></td><td><p><strong class="userinput"><code>&lt;mask&gt; ::= 16-bit integer in NR1
+          format as shown:</code></strong></p><pre class="synopsis">Bit Weight Input
+--- ------ ----------
+10   1024  Ext Trigger Fault
+ 9    512  Channel 4 Fault
+ 8    256  Channel 3 Fault
+ 7    128  Channel 2 Fault
+ 6     64  Channel 1 Fault
+ 4     16  Ext Trigger OVL
+ 3      8  Channel 4 OVL
+ 2      4  Channel 3 OVL
+ 1      2  Channel 2 OVL
+ 0      1  Channel 1 OVL</pre></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:OVLRegister?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= integer in NR1 format. See
+          OVLenable for &lt;value&gt;</code></strong></td></tr><tr><td><strong class="userinput"><code>:PRINt
+          [&lt;options&gt;]</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><p><strong class="userinput"><code>&lt;options&gt; ::= [&lt;print
+          option&gt;][,..,&lt;print
+          option&gt;]</code></strong></p><p><strong class="userinput"><code>&lt;print option&gt;
+          ::= {COLor | GRAYscale | PRINter0 | BMP8bit | BMP | PNG | NOFactors
+          | FACTors}</code></strong></p><p><strong class="userinput"><code>&lt;print option&gt;
+          can be repeated up to 5 times.</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:RUN</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:SERial</code></strong></td><td><strong class="userinput"><code>&lt;return value&gt; ::= unquoted string
+          containing serial number</code></strong></td></tr><tr><td><strong class="userinput"><code>:SINGle</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:STATus?
+          &lt;display&gt;</code></strong></td><td><p><strong class="userinput"><code>{0 |
+          1}</code></strong></p><p><strong class="userinput"><code>&lt;display&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | POD{1 | 2} | BUS{1 | 2}
+          | FUNCtion | MATH |
+          SBUS}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+          NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:STOP</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:TER?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:VIEW
+          &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          PMEMory{0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9} | FUNCtion | MATH |
+          SBUS} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | PMEMory{0 | 1 | 2 | 3 |
+          4 | 5 | 6 | 7 | 8 | 9} | POD{1 | 2} | BUS{1 | 2} | FUNCtion | MATH |
+          SBUS} for MSO models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+          ::= 1-2 or 1-4 in NR1 format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e1855"></a><p class="title"><b>:ACQuire Commands Summary:</b></p><div class="table-contents"><table summary=":ACQuire Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:ACQuire:AALias?</code></strong></td><td><strong class="userinput"><code>{1 | 0}</code></strong></td></tr><tr><td><strong class="userinput"><code>:ACQuire:COMPlete
+          &lt;complete&gt;</code></strong></td><td><strong class="userinput"><code>:ACQuire:COMPlete?</code></strong></td><td><strong class="userinput"><code>&lt;complete&gt; ::= 100; an integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:ACQuire:COUNt
+          &lt;count&gt;</code></strong></td><td><strong class="userinput"><code>:ACQuire:COUNt?</code></strong></td><td><strong class="userinput"><code>&lt;count&gt; ::= an integer from 1 to 65536 in
+          NR1 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:ACQuire:DAALias
+          &lt;mode&gt;</code></strong></td><td><strong class="userinput"><code>:ACQuire:DAALias?</code></strong></td><td><strong class="userinput"><code>&lt;mode&gt; ::= {DISable |
+          AUTO}</code></strong></td></tr><tr><td><strong class="userinput"><code>:ACQuire:MODE
+          &lt;mode&gt;</code></strong></td><td><strong class="userinput"><code>:ACQuire:MODE?</code></strong></td><td><strong class="userinput"><code>&lt;mode&gt; ::= {RTIMe |
+          ETIMe}</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:ACQuire:POINts?</code></strong></td><td><strong class="userinput"><code>&lt;#&nbsp;points&gt; ::= an integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:ACQuire:RSIGnal
+          &lt;ref_signal_mode&gt;</code></strong></td><td><strong class="userinput"><code>:ACQuire:RSIGnal?</code></strong></td><td><strong class="userinput"><code>&lt;ref_signal_mode&gt; ::= {OFF | OUT |
+          IN}</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:ACQuire:SRATe?</code></strong></td><td><strong class="userinput"><code>&lt;sample_rate&gt; ::= sample rate (samples/s) in
+          NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:ACQuire:TYPE
+          &lt;type&gt;</code></strong></td><td><strong class="userinput"><code>:ACQuire:TYPE?</code></strong></td><td><strong class="userinput"><code>&lt;type&gt; ::= {NORMal | AVERage | HRESolution |
+          PEAK}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e1976"></a><p class="title"><b>:BUS&lt;n&gt; Commands Summary:</b></p><div class="table-contents"><table summary=":BUS&lt;n&gt; Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:BUS&lt;n&gt;:BIT&lt;m&gt; {{0
+          | OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:BUS&lt;n&gt;:BIT&lt;m&gt;?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+          1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1 or 2; an
+          integer in NR1 format</code></strong></p><p><strong class="userinput"><code>&lt;m&gt;
+          ::= 0-15; an integer in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:BUS&lt;n&gt;:BITS
+          &lt;channel_list&gt;, {{0 | OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:BUS&lt;n&gt;:BITS?</code></strong></td><td><p><strong class="userinput"><code>&lt;channel_list&gt;, {0 |
+          1}</code></strong></p><p><strong class="userinput"><code>&lt;channel_list&gt; ::=
+          (@&lt;m&gt;,&lt;m&gt;:&lt;m&gt; ...) where "," is separator and ":"
+          is range</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1 or 2; an
+          integer in NR1 format</code></strong></p><p><strong class="userinput"><code>&lt;m&gt;
+          ::= 0-15; an integer in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:BUS&lt;n&gt;:CLEar</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><p><strong class="userinput"><code>&lt;n&gt; ::= 1 or 2; an integer in NR1
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:BUS&lt;n&gt;:DISPlay {{0 |
+          OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:BUS&lt;n&gt;:DISPlay?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+          1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1 or 2; an
+          integer in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:BUS&lt;n&gt;:LABel
+          &lt;string&gt;</code></strong></td><td><strong class="userinput"><code>:BUS&lt;n&gt;:LABel?</code></strong></td><td><p><strong class="userinput"><code>&lt;string&gt; ::= quoted ASCII string up to
+          16 characters</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1 or
+          2; an integer in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:BUS&lt;n&gt;:MASK
+          &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:BUS&lt;n&gt;:MASK?</code></strong></td><td><p><strong class="userinput"><code>&lt;mask&gt; ::= 32-bit integer in decimal,
+          &lt;nondecimal&gt;, or
+          &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+          ::= #Hnn...n where n ::= {0,..,9 | A,..,F} for
+          hexadecimal</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+          ::= #Bnn...n where n ::= {0 | 1} for
+          binary</code></strong></p><p><strong class="userinput"><code>&lt;string&gt; ::=
+          "0xnn...n" where n ::= {0,..,9 | A,..,F} for
+          hexadecimal</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1 or 2;
+          an integer in NR1 format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2102"></a><p class="title"><b>:CALibrate Commands Summary:</b></p><div class="table-contents"><table summary=":CALibrate Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:CALibrate:DATE?</code></strong></td><td><strong class="userinput"><code>&lt;return value&gt; ::=
+          &lt;day&gt;,&lt;month&gt;,&lt;year&gt;; all in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:CALibrate:LABel
+          &lt;string&gt;</code></strong></td><td><strong class="userinput"><code>:CALibrate:LABel?</code></strong></td><td><strong class="userinput"><code>&lt;string&gt; ::= quoted ASCII string up to 32
+          characters</code></strong></td></tr><tr><td><strong class="userinput"><code>:CALibrate:STARt</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:CALibrate:STATus?</code></strong></td><td><p><strong class="userinput"><code>&lt;return value&gt; ::=
+          ALL,&lt;status_code&gt;,&lt;status_string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;status_code&gt;
+          ::= an integer status
+          code</code></strong></p><p><strong class="userinput"><code>&lt;status_string&gt; ::= an
+          ASCII status string</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:CALibrate:SWITch?</code></strong></td><td><strong class="userinput"><code>{PROTected | UNPRotected}</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:CALibrate:TEMPerature?</code></strong></td><td><strong class="userinput"><code>&lt;return value&gt; ::= degrees C delta since
+          last cal in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:CALibrate:TIME?</code></strong></td><td><strong class="userinput"><code>&lt;return value&gt; ::=
+          &lt;hours&gt;,&lt;minutes&gt;,&lt;seconds&gt;; all in NR1
+          format</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2203"></a><p class="title"><b>:CHANnel&lt;n&gt; Commands Summary:</b></p><div class="table-contents"><table summary=":CHANnel&lt;n&gt; Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:BWLimit {{0 |
+        OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:BWLimit?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+        1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in NR1
+        format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:COUPling
+        &lt;coupling&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:COUPling?</code></strong></td><td><p><strong class="userinput"><code>&lt;coupling&gt; ::= {AC |
+        DC}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in NR1
+        format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:DISPlay {{0 |
+        OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:DISPlay?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+        1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in NR1
+        format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:IMPedance
+        &lt;impedance&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:IMPedance?</code></strong></td><td><p><strong class="userinput"><code>&lt;impedance&gt; ::= {ONEMeg |
+        FIFTy}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:INVert {{0 |
+        OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:INVert?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+        1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in NR1
+        format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:LABel
+        &lt;string&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:LABel?</code></strong></td><td><p><strong class="userinput"><code>&lt;string&gt; ::= any series of 6 or less
+        ASCII characters enclosed in quotation
+        marks</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:OFFSet
+        &lt;offset&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:OFFSet?</code></strong></td><td><p><strong class="userinput"><code>&lt;offset&gt; ::= Vertical offset value in
+        NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {V |
+        mV}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4; in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe
+        &lt;attenuation&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe?</code></strong></td><td><p><strong class="userinput"><code>&lt;attenuation&gt; ::= Probe attenuation
+        ratio in NR3 format</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+        1-2 or 1-4r in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe:ID?</code></strong></td><td><p><strong class="userinput"><code>&lt;probe id&gt; ::= unquoted ASCII string up
+        to 11 characters</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2
+        or 1-4 in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe:SKEW
+        &lt;skew_value&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe:SKEW?</code></strong></td><td><p><strong class="userinput"><code>&lt;skew_value&gt; ::= -100 ns to +100 ns in
+        NR3 format</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+        in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe:STYPe
+        &lt;signal type&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROBe:STYPe?</code></strong></td><td><p><strong class="userinput"><code>&lt;signal type&gt; ::= {DIFFerential |
+        SINGle}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROTection</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:PROTection?</code></strong></td><td><p><strong class="userinput"><code>{NORM |
+        TRIP}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:RANGe
+        &lt;range&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:RANGe?</code></strong></td><td><p><strong class="userinput"><code>&lt;range&gt; ::= Vertical full-scale range
+        value in NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {V
+        | mV}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:SCALe
+        &lt;scale&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:SCALe?</code></strong></td><td><p><strong class="userinput"><code>&lt;scale&gt; ::= Vertical units per division
+        value in NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {V
+        | mV}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in
+        NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:UNITs
+        &lt;units&gt;</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:UNITs?</code></strong></td><td><p><strong class="userinput"><code>&lt;units&gt; ::= {VOLTs |
+        AMPeres}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+        in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:VERNier {{0 |
+        OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:CHANnel&lt;n&gt;:VERNier?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+        1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4 in NR1
+        format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2483"></a><p class="title"><b>:DIGital&lt;n&gt; Commands Summary:</b></p><div class="table-contents"><table summary=":DIGital&lt;n&gt; Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:DIGital&lt;n&gt;:DISPlay {{0 |
+          OFF} | {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:DIGital&lt;n&gt;:DISPlay?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+          1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 0-15; an integer
+          in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:DIGital&lt;n&gt;:LABel
+          &lt;string&gt;</code></strong></td><td><strong class="userinput"><code>:DIGital&lt;n&gt;:LABel?</code></strong></td><td><p><strong class="userinput"><code>&lt;string&gt; ::= any series of 6 or less
+          ASCII characters enclosed in quotation
+          marks</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 0-15; an
+          integer in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:DIGital&lt;n&gt;:POSition
+          &lt;position&gt;</code></strong></td><td><strong class="userinput"><code>:DIGital&lt;n&gt;:POSition?</code></strong></td><td><p><strong class="userinput"><code>&lt;n&gt; ::= 0-15; an integer in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;position&gt; ::= 0-7
+          if display size = large, 0-15 if size = medium, 0-31 if size =
+          small </code></strong></p></td></tr><tr><td><strong class="userinput"><code>:DIGital&lt;n&gt;:SIZE
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:DIGital&lt;n&gt;:SIZE?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {SMALl | MEDium |
+          LARGe}</code></strong></td></tr><tr><td><strong class="userinput"><code>:DIGital&lt;n&gt;:THReshold
+          &lt;value&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:DIGital&lt;n&gt;:THReshold?</code></strong></td><td><p><strong class="userinput"><code>&lt;n&gt; ::= 0-15; an integer in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;value&gt; ::= {CMOS |
+          ECL | TTL | &lt;user defined
+          value&gt;}</code></strong></p><p><strong class="userinput"><code>&lt;user defined
+          value&gt; ::= value in NR3 format from -8.00 to
+          +8.00</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {V | mV |
+          uV}</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2581"></a><p class="title"><b>:DISPlay Commands Summary:</b></p><div class="table-contents"><table summary=":DISPlay Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:DISPlay:CLEar</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>:DISPlay:DATA
+          [&lt;format&gt;][,][&lt;area&gt;][,][&lt;palette&gt;]&lt;display
+          data&gt;</code></strong></td><td><strong class="userinput"><code>:DISPlay:DATA?
+          [&lt;format&gt;][,][&lt;area&gt;][,][&lt;palette&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;format&gt; ::= {TIFF}
+          (command)</code></strong></p><p><strong class="userinput"><code>&lt;area&gt; ::=
+          {GRATicule}
+          (command)</code></strong></p><p><strong class="userinput"><code>&lt;palette&gt; ::=
+          {MONochrome}
+          (command)</code></strong></p><p><strong class="userinput"><code>&lt;format&gt; ::=
+          {TIFF | BMP | BMP8bit | PNG}
+          (query)</code></strong></p><p><strong class="userinput"><code>&lt;area&gt; ::=
+          {GRATicule | SCReen}
+          (query)</code></strong></p><p><strong class="userinput"><code>&lt;palette&gt; ::=
+          {MONochrome | GRAYscale | COLor}
+          (query)</code></strong></p><p><strong class="userinput"><code>&lt;display data&gt; ::=
+          data in IEEE 488.2 # format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:DISPlay:LABel {{0 | OFF} | {1 |
+          ON}}</code></strong></td><td><strong class="userinput"><code>:DISPlay:LABel?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:DISPlay:LABList &lt;binary
+          block&gt;</code></strong></td><td><strong class="userinput"><code>:DISPlay:LABList?</code></strong></td><td><strong class="userinput"><code>&lt;binary block&gt; ::= an ordered list of up to
+          75 labels, each 6 characters maximum, separated by newline
+          characters</code></strong></td></tr><tr><td><strong class="userinput"><code>:DISPlay:PERSistence
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:DISPlay:PERSistence?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {MINimum |
+          INFinite}}</code></strong></td></tr><tr><td><strong class="userinput"><code>:DISPlay:SOURce
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:DISPlay:SOURce?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {PMEMory{0 | 1 | 2 | 3 | 4 | 5 |
+          6 | 7 | 8 | 9}}</code></strong></td></tr><tr><td><strong class="userinput"><code>:DISPlay:VECTors {{1 | ON} | {0 |
+          OFF}}</code></strong></td><td><strong class="userinput"><code>:DISPlay:VECTors?</code></strong></td><td><strong class="userinput"><code>{1 | 0}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2699"></a><p class="title"><b>:EXTernal Trigger Commands Summary:</b></p><div class="table-contents"><table summary=":EXTernal Trigger Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:EXTernal:BWLimit
+          &lt;bwlimit&gt;</code></strong></td><td><strong class="userinput"><code>:EXTernal:BWLimit?</code></strong></td><td><strong class="userinput"><code>&lt;bwlimit&gt; ::= {0 | OFF}</code></strong></td></tr><tr><td><strong class="userinput"><code>:EXTernal:IMPedance
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:EXTernal:IMPedance?</code></strong></td><td><strong class="userinput"><code>&lt;impedance&gt; ::= {ONEMeg |
+          FIFTy}</code></strong></td></tr><tr><td><strong class="userinput"><code>:EXTernal:PROBe
+          &lt;attenuation&gt;</code></strong></td><td><strong class="userinput"><code>:EXTernal:PROBe?</code></strong></td><td><strong class="userinput"><code>&lt;attenuation&gt; ::= probe attenuation ratio in
+          NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:EXTernal:PROBe:ID?</code></strong></td><td><strong class="userinput"><code>&lt;probe id&gt; ::= unquoted ASCII string up to
+          11 characters</code></strong></td></tr><tr><td><strong class="userinput"><code>:EXTernal:PROBe:STYPe
+          &lt;signal type&gt;</code></strong></td><td><strong class="userinput"><code>:EXTernal:PROBe:STYPe?</code></strong></td><td><strong class="userinput"><code>&lt;signal type&gt; ::= {DIFFerential |
+          SINGle}</code></strong></td></tr><tr><td><strong class="userinput"><code>:EXTernal:PROTection[:CLEar]</code></strong></td><td><strong class="userinput"><code>:EXTernal:PROTection?</code></strong></td><td><strong class="userinput"><code>{NORM | TRIP}</code></strong></td></tr><tr><td><strong class="userinput"><code>:EXTernal:RANGe
+          &lt;range&gt;[&lt;suffix&gt;]</code></strong></td><td><strong class="userinput"><code>:EXTernal:RANGe?</code></strong></td><td><p><strong class="userinput"><code>&lt;range&gt; ::= vertical full-scale range
+          value in NR3
+          format</code></strong></p><p><strong class="userinput"><code>&lt;suffix&gt; ::= {V |
+          mV}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:EXTernal:UNITs
+          &lt;units&gt;</code></strong></td><td><strong class="userinput"><code>:EXTernal:UNITs?</code></strong></td><td><strong class="userinput"><code>&lt;units&gt; ::= {VOLTs |
+          AMPeres}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2814"></a><p class="title"><b>:FUNCtion Commands Summary:</b></p><div class="table-contents"><table summary=":FUNCtion Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:FUNCtion:CENTer
+          &lt;frequency&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:CENTer?</code></strong></td><td><strong class="userinput"><code>&lt;frequency&gt; ::= the current center frequency
+          in NR3 format. The range of legal values is from 0&nbsp;Hz to
+          25&nbsp;GHz.</code></strong></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:DISPlay {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:FUNCtion:DISPlay?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:OFFSet
+          &lt;offset&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:OFFSet?</code></strong></td><td><p><strong class="userinput"><code>&lt;offset&gt; ::= the value at center
+          screen in NR3 format. </code></strong></p><p><strong class="userinput"><code>The range
+          of legal values is +/-10 times the current sensitivity of the
+          selected function.</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:OPERation
+          &lt;operation&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:OPERation?</code></strong></td><td><strong class="userinput"><code>&lt;operation&gt; ::= {SUBTract | MULTiply |
+          INTegrate | DIFFerentiate | FFT}</code></strong></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:RANGe
+          &lt;range&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:RANGe?</code></strong></td><td><p><strong class="userinput"><code>&lt;range&gt; ::= the full-scale vertical
+          axis value in NR3 format.</code></strong></p><p><strong class="userinput"><code>The
+          range for ADD, SUBT, MULT is 8E-6 to 800E+3. The range for the
+          INTegrate function is 8E-9 to
+          400E+3.</code></strong></p><p><strong class="userinput"><code>The range for the
+          DIFFerentiate function is 80E-3 to 8.0E12 (depends on current sweep
+          speed).</code></strong></p><p><strong class="userinput"><code>The range for the FFT
+          function is 8 to 800 dBV.</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:REFerence
+          &lt;level&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:REFerence?</code></strong></td><td><p><strong class="userinput"><code>&lt;level&gt; ::= the current reference
+          level in NR3 format.</code></strong></p><p><strong class="userinput"><code>The range of
+          legal values is from 400.0 dBV to +400.0 dBV (depending on current
+          range value).</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:SCALe &lt;scale
+          value&gt;[&lt;suffix&gt;]</code></strong></td><td><strong class="userinput"><code>:FUNCtion:SCALe?</code></strong></td><td><p><strong class="userinput"><code>&lt;scale value&gt; ::= integer in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;suffix&gt; ::= {V |
+          dB}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:SOURce
+          &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; | ADD |
+          SUBT | MULT}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or
+          1-4 in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:SPAN
+          &lt;span&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:SPAN?</code></strong></td><td><p><strong class="userinput"><code>&lt;span&gt; ::= the current frequency span
+          in NR3 format.</code></strong></p><p><strong class="userinput"><code>Legal values are
+          1&nbsp;Hz to 100&nbsp;GHz.</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:FUNCtion:WINDow
+          &lt;window&gt;</code></strong></td><td><strong class="userinput"><code>:FUNCtion:WINDow?</code></strong></td><td><strong class="userinput"><code>&lt;window&gt; ::= {RECTangular | HANNing |
+          FLATtop}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e2980"></a><p class="title"><b>:HARDcopy Commands Summary:</b></p><div class="table-contents"><table summary=":HARDcopy Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:HARDcopy:FACTors {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:HARDcopy:FACTors?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:HARDcopy:FFEed {{0 | OFF} | {1 |
+          ON}}</code></strong></td><td><strong class="userinput"><code>:HARDcopy:FFEed?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:HARDcopy:FILename
+          &lt;string&gt;</code></strong></td><td><strong class="userinput"><code>:HARDcopy:FILename?</code></strong></td><td><strong class="userinput"><code>&lt;string&gt; ::= quoted ASCII
+          string</code></strong></td></tr><tr><td><strong class="userinput"><code>:HARDcopy:FORMat
+          &lt;format&gt;</code></strong></td><td><strong class="userinput"><code>:HARDcopy:FORMat?</code></strong></td><td><strong class="userinput"><code>&lt;format&gt; ::= {BMP[24bit] | BMP8bit | PNG |
+          CSV | ASCiixy | BINary | PRINter0 | PRINter1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:HARDcopy:IGColors {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:HARDcopy:IGColors?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:HARDcopy:PALette
+          &lt;palette&gt;</code></strong></td><td><strong class="userinput"><code>:HARDcopy:PALette?</code></strong></td><td><strong class="userinput"><code>&lt;palette&gt; ::= {COLor |
+          GRAYscale}</code></strong></td></tr><tr><td><strong class="userinput"><code>:HARDcopy:PDRiver
+          &lt;driver&gt;</code></strong></td><td><strong class="userinput"><code>:HARDcopy:PDRiver?</code></strong></td><td><strong class="userinput"><code>&lt;driver&gt; ::= {AP2Xxx | AP21xx | {AP2560 |
+          AP25} | {DJ350 | DJ35} | DJ6xx | {DJ630 | DJ63} | DJ6Special |
+          DJ6Photo | DJ8Special | DJ8xx | DJ9Vip | DJ9xx | GVIP | {PS100 |
+          PS10} | CLASer | MLASer | POSTscript}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e3080"></a><p class="title"><b>:MARKer Commands Summary:</b></p><div class="table-contents"><table summary=":MARKer Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:MARKer:MODE
+          &lt;mode&gt;</code></strong></td><td><strong class="userinput"><code>:MARKer:MODE?</code></strong></td><td><strong class="userinput"><code>&lt;mode&gt; ::= {OFF | MEASurement |
+          MANual}</code></strong></td></tr><tr><td><strong class="userinput"><code>:MARKer:X1Position
+          &lt;position&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:MARKer:X1Position?</code></strong></td><td><p><strong class="userinput"><code>&lt;position&gt; ::= X1 cursor position
+          value in NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::=
+          {s | ms | us | ns | ps | Hz | kHz |
+          MHz}</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::= X1
+          cursor position value in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MARKer:X1Y1source
+          &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:MARKer:X1Y1source?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          &lt;source&gt;</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MARKer:X2Position
+          &lt;position&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:MARKer:X2Position?</code></strong></td><td><p><strong class="userinput"><code>&lt;position&gt; ::= X2 cursor position
+          value in NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::=
+          {s | ms | us | ns | ps | Hz | kHz |
+          MHz}</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::= X2
+          cursor position value in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MARKer:X2Y2source
+          &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:MARKer:X2Y2source?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          &lt;source&gt;</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:MARKer:XDELta?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= X cursors delta value in
+          NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:MARKer:Y1Position
+          &lt;position&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:MARKer:Y1Position?</code></strong></td><td><p><strong class="userinput"><code>&lt;position&gt; ::= Y1 cursor position
+          value in NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::=
+          {V | mV |
+          dB}</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::= Y1
+          cursor position value in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MARKer:Y2Position
+          &lt;position&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:MARKer:Y2Position?</code></strong></td><td><p><strong class="userinput"><code>&lt;position&gt; ::= Y2 cursor position
+          value in NR3 format</code></strong></p><p><strong class="userinput"><code>[suffix] ::=
+          {V | mV |
+          dB}</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::= Y2
+          cursor position value in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:MARKer:YDELta?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= Y cursors delta value in
+          NR3 format</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e3244"></a><p class="title"><b>:MEASure Commands Summary:</b></p><div class="table-contents"><table summary=":MEASure Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:MEASure:CLEar</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>:MEASure:COUNter
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:COUNter?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt;} for
+          DSO models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 |} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          counter frequency in Hertz in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:DEFine DELay, &lt;delay
+          spec&gt;</code></strong></td><td><strong class="userinput"><code>:MEASure:DEFine?
+          DELay</code></strong></td><td><p><strong class="userinput"><code>&lt;delay spec&gt; ::=
+          &lt;edge_spec1&gt;,&lt;edge_spec2&gt;</code></strong></p><p><strong class="userinput"><code>edge_spec1
+          ::=
+          [&lt;slope&gt;]&lt;occurrence&gt;</code></strong></p><p><strong class="userinput"><code>edge_spec2
+          ::=
+          [&lt;slope&gt;]&lt;occurrence&gt;</code></strong></p><p><strong class="userinput"><code>&lt;slope&gt;
+          ::= {+ | -}</code></strong></p><p><strong class="userinput"><code>&lt;occurrence&gt;
+          ::= integer</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:DEFine THResholds,
+          &lt;threshold spec&gt;</code></strong></td><td><strong class="userinput"><code>:MEASure:DEFine?
+          THResholds</code></strong></td><td><p><strong class="userinput"><code>&lt;threshold spec&gt; ::= {STANdard} |
+          {&lt;threshold mode&gt;,&lt;upper&gt;,
+          &lt;middle&gt;,&lt;lower&gt;}</code></strong></p><p><strong class="userinput"><code>&lt;threshold
+          mode&gt; ::= {PERCent | ABSolute}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:DELay [&lt;source1&gt;]
+          [,&lt;source2&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:DELay? [&lt;source1&gt;]
+          [,&lt;source2&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source1,2&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          floating-point number delay time in seconds in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:DUTYcycle
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:DUTYcycle?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          ratio of positive pulse width to period in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:FALLtime
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:FALLtime?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          time in seconds between the lower and upper thresholds in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:FREQuency
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:FREQuency?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          frequency in Hertz in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:NWIDth
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:NWIDth?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          negative pulse width in seconds-NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:OVERshoot
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:OVERshoot?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          the percent of the overshoot of the selected waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:PERiod
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:PERiod?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          waveform period in seconds in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:PHASe [&lt;source1&gt;]
+          [,&lt;source2&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:PHASe? [&lt;source1&gt;]
+          [,&lt;source2&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source1,2&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          the phase angle value in degrees in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:PREShoot
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:PREShoot?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          the percent of preshoot of the selected waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:PWIDth
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:PWIDth?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          width of positive pulse in seconds in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:RISEtime
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:RISEtime?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          rise time in seconds in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:SDEViation
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:SDEViation?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          calculated std deviation in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:SHOW {1 |
+          ON}</code></strong></td><td><strong class="userinput"><code>:MEASure:SHOW?</code></strong></td><td><strong class="userinput"><code>{1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:MEASure:SOURce [&lt;source1&gt;]
+          [,&lt;source2&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source1,2&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source1,2&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          {&lt;source&gt; | NONE}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:MEASure:TEDGe?
+          &lt;slope&gt;&lt;occurrence&gt;[,&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;slope&gt; ::= direction of the
+          waveform</code></strong></p><p><strong class="userinput"><code>&lt;occurrence&gt; ::=
+          the transition to be
+          reported</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          time in seconds of the specified
+          transition</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:MEASure:TVALue? &lt;value&gt;,
+          [&lt;slope&gt;]&lt;occurrence&gt;
+          [,&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= voltage level that the
+          waveform must
+          cross.</code></strong></p><p><strong class="userinput"><code>&lt;slope&gt; ::=
+          direction of the waveform when &lt;value&gt; is
+          crossed.</code></strong></p><p><strong class="userinput"><code>&lt;occurrence&gt; ::=
+          transitions
+          reported.</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt;
+          ::= time in seconds of specified voltage crossing in NR3
+          format</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VAMPlitude
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VAMPlitude?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          the amplitude of the selected waveform in volts in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VAVerage
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VAVerage?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          calculated average voltage in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VBASe
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VBASe?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;base_voltage&gt; ::=
+          voltage at the base of the selected waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VMAX
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VMAX?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          maximum voltage of the selected waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VMIN
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VMIN?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          minimum voltage of the selected waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VPP
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VPP?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          voltage peak-to-peak of the selected waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VRMS
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VRMS?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          calculated dc RMS voltage in NR3 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:MEASure:VTIMe?
+          &lt;vtime&gt;[,&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;vtime&gt; ::= displayed time from
+          trigger in seconds in NR3
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          voltage at the specified time in NR3
+          format</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | FUNCtion | MATH} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | FUNCtion | MATH} for MSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+          in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:VTOP
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:VTOP?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          voltage at the top of the waveform in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:XMAX
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:XMAX?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          horizontal value of the maximum in NR3
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:MEASure:XMIN
+          [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:MEASure:XMIN?
+          [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::=
+          1-2 or 1-4 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+          horizontal value of the maximum in NR3
+          format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e3885"></a><p class="title"><b>:POD&lt;n&gt; Commands Summary:</b></p><div class="table-contents"><table summary=":POD&lt;n&gt; Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:POD&lt;n&gt;:DISPlay {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:POD&lt;n&gt;:DISPlay?</code></strong></td><td><p><strong class="userinput"><code>{0 |
+          1}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 in NR1
+          format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:POD&lt;n&gt;:SIZE
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:POD&lt;n&gt;:SIZE?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {SMALl | MEDium |
+          LARGe}</code></strong></td></tr><tr><td><strong class="userinput"><code>:POD&lt;n&gt;:THReshold
+          &lt;type&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:POD&lt;n&gt;:THReshold?</code></strong></td><td><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;type&gt; ::= {CMOS |
+          ECL | TTL | &lt;user defined
+          value&gt;}</code></strong></p><p><strong class="userinput"><code>&lt;user defined
+          value&gt; ::= value in NR3
+          format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {V | mV | uV
+          }</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e3951"></a><p class="title"><b>:SBUS Commands Summary:</b></p><div class="table-contents"><table summary=":SBUS Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:SBUS:CAN:COUNt:ERRor?</code></strong></td><td><strong class="userinput"><code>&lt;frame_count&gt; ::= integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:SBUS:CAN:COUNt:OVERload?</code></strong></td><td><strong class="userinput"><code>&lt;frame_count&gt; ::= integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:SBUS:CAN:COUNt:RESet</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:SBUS:CAN:COUNt:TOTal?</code></strong></td><td><strong class="userinput"><code>&lt;frame_count&gt; ::= integer in NR1
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:SBUS:CAN:COUNt:UTILization?</code></strong></td><td><strong class="userinput"><code>&lt;percent&gt; ::= floating-point in NR3
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:SBUS:DISPlay {{0 | OFF} | {1 |
+          ON}}</code></strong></td><td><strong class="userinput"><code>:SBUS:DISPlay?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:SBUS:IIC:ASIZe
+          &lt;size&gt;</code></strong></td><td><strong class="userinput"><code>:SBUS:IIC:ASIZe?</code></strong></td><td><strong class="userinput"><code>&lt;size&gt; ::= {BIT7 | BIT8}</code></strong></td></tr><tr><td><strong class="userinput"><code>:SBUS:LIN:PARity {{0 | OFF} | {1
+          | ON}}</code></strong></td><td><strong class="userinput"><code>:SBUS:LIN:PARity?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:SBUS:MODE
+          &lt;mode&gt;</code></strong></td><td><strong class="userinput"><code>:SBUS:MODE?</code></strong></td><td><strong class="userinput"><code>&lt;mode&gt; ::= {IIC | SPI | CAN |
+          LIN}</code></strong></td></tr><tr><td><strong class="userinput"><code>:SBUS:SPI:WIDTh
+          &lt;word_width&gt;</code></strong></td><td><strong class="userinput"><code>:SBUS:SPI:WIDTh?</code></strong></td><td><p><strong class="userinput"><code>&lt;word_width&gt; ::= integer 4-16 in NR1
+          format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4083"></a><p class="title"><b>:SYSTem Commands Summary:</b></p><div class="table-contents"><table summary=":SYSTem Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:SYSTem:DATE
+          &lt;date&gt;</code></strong></td><td><strong class="userinput"><code>:SYSTem:DATE?</code></strong></td><td><p><strong class="userinput"><code>&lt;date&gt; ::=
+          &lt;year&gt;,&lt;month&gt;,&lt;day&gt;</code></strong></p><p><strong class="userinput"><code>&lt;year&gt;
+          ::= 4-digit year in NR1
+          format</code></strong></p><p><strong class="userinput"><code>&lt;month&gt; ::= {1,..,12
+          | JANuary | FEBruary | MARch | APRil | MAY | JUNe | JULy | AUGust |
+          SEPtember | OCTober | NOVember |
+          DECember}</code></strong></p><p><strong class="userinput"><code>&lt;day&gt; ::=
+          {1,..31}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:SYSTem:DSP
+          &lt;string&gt;</code></strong></td><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>&lt;string&gt; ::= up to 254 characters as a
+          quoted ASCII string</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:SYSTem:ERRor?</code></strong></td><td><p><strong class="userinput"><code>&lt;error&gt; ::= an integer error
+          code</code></strong></p><p><strong class="userinput"><code>&lt;error string&gt; ::=
+          quoted ASCII string.</code></strong></p><p><strong class="userinput"><code>See Error
+          Messages.</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:SYSTem:LOCK</code></strong></td><td><strong class="userinput"><code>:SYSTem:LOCK?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {ON | OFF}</code></strong></td></tr><tr><td><strong class="userinput"><code>:SYSTem:SETup
+          &lt;setup_data&gt;</code></strong></td><td><strong class="userinput"><code>:SYSTem:SETup?</code></strong></td><td><strong class="userinput"><code>&lt;setup_data&gt; ::= data in IEEE 488.2 #
+          format.</code></strong></td></tr><tr><td><strong class="userinput"><code>:SYSTem:TIME
+          &lt;time&gt;</code></strong></td><td><strong class="userinput"><code>:SYSTem:TIME?</code></strong></td><td><strong class="userinput"><code>&lt;time&gt; ::= hours,minutes,seconds in NR1
+          format</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4189"></a><p class="title"><b>:TIMebase Commands Summary:</b></p><div class="table-contents"><table summary=":TIMebase Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TIMebase:MODE
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:MODE?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {MAIN | WINDow | XY |
+          ROLL}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:POSition
+          &lt;pos&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:POSition?</code></strong></td><td><strong class="userinput"><code>&lt;pos&gt; ::= time from the trigger event to the
+          display reference point in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:RANGe
+          &lt;range_value&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:RANGe?</code></strong></td><td><strong class="userinput"><code>&lt;range_value&gt; ::= 5 ns through 500 s in NR3
+          format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:REFClock {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:TIMebase:REFClock?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:REFerence {LEFT |
+          CENTer | RIGHt}</code></strong></td><td><strong class="userinput"><code>:TIMebase:REFerence?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= {LEFT | CENTer |
+          RIGHt}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:SCALe
+          &lt;scale_value&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:SCALe?</code></strong></td><td><strong class="userinput"><code>&lt;scale_value&gt; ::= scale value in seconds in
+          NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:VERNier {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:TIMebase:VERNier?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:WINDow:POSition
+          &lt;pos&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:WINDow:POSition?</code></strong></td><td><strong class="userinput"><code>&lt;pos&gt; ::= time from the trigger event to the
+          delayed view reference point in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:WINDow:RANGe
+          &lt;range_value&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:WINDow:RANGe?</code></strong></td><td><strong class="userinput"><code>&lt;range value&gt; ::= range value in seconds in
+          NR3 format for the delayed window</code></strong></td></tr><tr><td><strong class="userinput"><code>:TIMebase:WINDow:SCALe
+          &lt;scale_value&gt;</code></strong></td><td><strong class="userinput"><code>:TIMebase:WINDow:SCALe?</code></strong></td><td><strong class="userinput"><code>&lt;scale_value&gt; ::= scale value in seconds in
+          NR3 format for the delayed window</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4325"></a><p class="title"><b>General :TRIGger Commands Summary:</b></p><div class="table-contents"><table summary="General :TRIGger Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:HFReject {{0 | OFF} |
+            {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:TRIGger:HFReject?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:HOLDoff
+            &lt;holdoff_time&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:HOLDoff?</code></strong></td><td><strong class="userinput"><code>&lt;holdoff_time&gt; ::= 60 ns to 10 s in NR3
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:MODE
+            &lt;mode&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:MODE?</code></strong></td><td><p><strong class="userinput"><code>&lt;mode&gt; ::= {EDGE | GLITch | PATTern
+            | CAN | DURation | IIC | EBURst | LIN | SEQuence | SPI | TV |
+            USB}</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+            {&lt;mode&gt; |
+            &lt;none&gt;}</code></strong></p><p><strong class="userinput"><code>&lt;none&gt; ::=
+            query returns "NONE" if the :TIMebase:MODE is ROLL or
+            XY</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:NREJect {{0 | OFF} |
+            {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:TRIGger:NREJect?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:PATTern &lt;value&gt;,
+            &lt;mask&gt; [,&lt;edge
+            source&gt;,&lt;edge&gt;]</code></strong></td><td><strong class="userinput"><code>:TRIGger:PATTern?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= 32-bit integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;mask&gt; ::=
+            32-bit integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= "0xnnnnnn"; n ::= {0,..,9 |
+            A,..,F}</code></strong></p><p><strong class="userinput"><code>&lt;edge source&gt; ::=
+            {CHANnel&lt;n&gt; | EXTernal | NONE} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;edge source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | NONE} for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;edge&gt; ::=
+            {POSitive | NEGative}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+            ::= 1-2 or 1-4 in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SWEep
+            &lt;sweep&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SWEep?</code></strong></td><td><strong class="userinput"><code>&lt;sweep&gt; ::= {AUTO |
+            NORMal}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4439"></a><p class="title"><b>:TRIGger:CAN Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:CAN Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:DATA
+            &lt;value&gt;, &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:DATA?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= 64-bit integer in
+            decimal, &lt;nondecimal&gt;, or &lt;string&gt; (with Option
+            AMS)</code></strong></p><p><strong class="userinput"><code>&lt;mask&gt; ::= 64-bit
+            integer in decimal, &lt;nondecimal&gt;, or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+            ::= #Hnn...n where n ::= {0,..,9 | A,..,F} for
+            hexadecimal</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+            ::= #Bnn...n where n ::= {0 | 1} for
+            binary</code></strong></p><p><strong class="userinput"><code>&lt;string&gt; ::=
+            "0xnn...n" where n ::= {0,..,9 | A,..,F} for
+            hexadecimal</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:DATA:LENGth
+            &lt;length&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:DATA:LENGth?</code></strong></td><td><strong class="userinput"><code>&lt;length&gt; ::= integer from 1 to 8 in NR1
+            format (with Option AMS)</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:ID
+            &lt;value&gt;, &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:ID?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= 32-bit integer in
+            decimal, &lt;nondecimal&gt;, or &lt;string&gt; (with Option
+            AMS)</code></strong></p><p><strong class="userinput"><code>&lt;mask&gt; ::= 32-bit
+            integer in decimal, &lt;nondecimal&gt;, or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+            ::= #Hnn...n where n ::= {0,..,9 | A,..,F} for
+            hexadecimal</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+            ::= #Bnn...n where n ::= {0 | 1} for
+            binary</code></strong></p><p><strong class="userinput"><code>&lt;string&gt; ::=
+            "0xnn...n" where n ::= {0,..,9 | A,..,F} for
+            hexadecimal</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:ID:MODE
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:PATTern:ID:MODE?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {STANdard | EXTended} (with
+            Option AMS)</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:SAMPlepoint
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:SAMPlepoint?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {60 | 62.5 | 68 | 70 | 75 | 80
+            | 87.5} in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:SIGNal:BAUDrate
+            &lt;baudrate&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:SIGNal:BAUDrate?</code></strong></td><td><strong class="userinput"><code>&lt;baudrate&gt; ::= {10000 | 20000 | 33300 |
+            50000 | 62500 | 83300 | 100000 | 125000 | 250000 | 500000 | 800000
+            | 1000000}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:SOURce
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 |} for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:CAN:TRIGger
+            &lt;condition&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:CAN:TRIGger?</code></strong></td><td><p><strong class="userinput"><code>&lt;condition&gt; ::= {SOF} (without
+            Option AMS)</code></strong></p><p><strong class="userinput"><code>&lt;condition&gt;
+            ::= {SOF | DATA | ERRor | IDData | IDEither | IDRemote | ALLerrors
+            | OVERload | ACKerror} (with Option
+            AMS)</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4588"></a><p class="title"><b>:TRIGger:DURation Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:DURation Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:DURation:GREaterthan
+            &lt;greater than time&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:TRIGger:DURation:GREaterthan?</code></strong></td><td><p><strong class="userinput"><code>&lt;greater than time&gt; ::=
+            floating-point number from 5&nbsp;ns to 10&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {s | ms |
+            us | ns | ps}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:DURation:LESSthan
+            &lt;less than time&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:TRIGger:DURation:LESSthan?</code></strong></td><td><p><strong class="userinput"><code>&lt;less than time&gt; ::= floating-point
+            number from 5&nbsp;ns to 10&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {s | ms |
+            us | ns | ps}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:DURation:PATTern
+            &lt;value&gt;, &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:DURation:PATTern?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;mask&gt; ::=
+            integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= ""0xnnnnnn"" n ::= {0,..,9 |
+            A,..,F}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:DURation:QUALifier
+            &lt;qualifier&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:DURation:QUALifier?</code></strong></td><td><strong class="userinput"><code>&lt;qualifier&gt; ::= {GREaterthan | LESSthan |
+            INRange | OUTRange | TIMeout}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:DURation:RANGe
+            &lt;greater than time&gt;[suffix], &lt;less than
+            time&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:TRIGger:DURation:RANGe?</code></strong></td><td><p><strong class="userinput"><code>&lt;greater than time&gt; ::= min duration
+            from 10&nbsp;ns to 9.99&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>&lt;less than time&gt;
+            ::= max duration from 15&nbsp;ns to 10&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {s | ms |
+            us | ns | ps}</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4686"></a><p class="title"><b>:TRIGger:EBURst Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:EBURst Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:EBURst:COUNt
+            &lt;count&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:EBURst:COUNt?</code></strong></td><td><strong class="userinput"><code>&lt;count&gt; ::= integer in NR1
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:EBURst:IDLE
+            &lt;time_value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:EBURst:IDLE?</code></strong></td><td><strong class="userinput"><code>&lt;time_value&gt; ::= time in seconds in NR3
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:EBURst:SLOPe
+            &lt;slope&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:EBURst:SLOPe?</code></strong></td><td><strong class="userinput"><code>&lt;slope&gt; ::= {NEGative |
+            POSitive}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4738"></a><p class="title"><b>:TRIGger[:EDGE] Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger[:EDGE] Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger[:EDGE]:COUPling
+            {AC | DC | LF}</code></strong></td><td><strong class="userinput"><code>:TRIGger[:EDGE]:COUPling?</code></strong></td><td><strong class="userinput"><code>{AC | DC | LF}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger[:EDGE]:LEVel
+            &lt;level&gt; [,&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:TRIGger[:EDGE]:LEVel?
+            [&lt;source&gt;]</code></strong></td><td><p><strong class="userinput"><code>For internal triggers, &lt;level&gt; ::=
+            .75 x full-scale voltage from center screen in NR3
+            format.</code></strong></p><p><strong class="userinput"><code>For external triggers,
+            &lt;level&gt; ::= 2 volts with probe attenuation at 1:1 in NR3
+            format.</code></strong></p><p><strong class="userinput"><code>For digital channels
+            (MSO models), &lt;level&gt; ::= 8
+            V.</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | EXTernal } for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger[:EDGE]:REJect {OFF
+            | LF | HF}</code></strong></td><td><strong class="userinput"><code>:TRIGger[:EDGE]:REJect?</code></strong></td><td><strong class="userinput"><code>{OFF | LF | HF}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger[:EDGE]:SLOPe
+            &lt;polarity&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger[:EDGE]:SLOPe?</code></strong></td><td><strong class="userinput"><code>&lt;polarity&gt; ::= {POSitive | NEGative |
+            EITHer | ALTernate}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger[:EDGE]:SOURce
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger[:EDGE]:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 | EXTernal} for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4837"></a><p class="title"><b>:TRIGger:GLITch Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:GLITch Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:GLITch:GREaterthan
+            &lt;greater than time&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:GREaterthan?</code></strong></td><td><p><strong class="userinput"><code>&lt;greater than time&gt; ::=
+            floating-point number from 5&nbsp;ns to 10&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {s | ms |
+            us | ns | ps}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:GLITch:LESSthan
+            &lt;less than time&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:LESSthan?</code></strong></td><td><p><strong class="userinput"><code>&lt;less than time&gt; ::= floating-point
+            number from 5&nbsp;ns to 10&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {s | ms |
+            us | ns | ps}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:GLITch:LEVel
+            &lt;level&gt; [&lt;source&gt;]</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:LEVel?</code></strong></td><td><p><strong class="userinput"><code>For internal triggers, &lt;level&gt; ::=
+            .75 x full-scale voltage from center screen in NR3
+            format.</code></strong></p><p><strong class="userinput"><code>For external triggers,
+            &lt;level&gt; ::= 2 volts with probe attenuation at 1:1 in NR3
+            format.</code></strong></p><p><strong class="userinput"><code>For digital channels
+            (MSO models), &lt;level&gt; ::= 6
+            V.</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:GLITch:POLarity
+            &lt;polarity&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:POLarity?</code></strong></td><td><strong class="userinput"><code>&lt;polarity&gt; ::= {POSitive |
+            NEGative}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:GLITch:QUALifier
+            &lt;qualifier&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:QUALifier?</code></strong></td><td><strong class="userinput"><code>&lt;qualifier&gt; ::= {GREaterthan | LESSthan |
+            RANGe}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:GLITch:RANGe
+            &lt;greater than time&gt;[suffix], &lt;less than
+            time&gt;[suffix]</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:RANGe?</code></strong></td><td><p><strong class="userinput"><code>&lt;greater than time&gt; ::= start time
+            from 10&nbsp;ns to 9.99&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>&lt;less than time&gt;
+            ::= stop time from 15&nbsp;ns to 10&nbsp;seconds in NR3
+            format</code></strong></p><p><strong class="userinput"><code>[suffix] ::= {s | ms |
+            us | ns | ps}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:GLITch:SOURce
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:GLITch:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 } for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e4975"></a><p class="title"><b>:TRIGger:IIC Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:IIC Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:IIC:PATTern:ADDRess
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC:PATTern:ADDRess?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= "0xnn" n ::= {0,..,9 | A,..,F}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:IIC:PATTern:DATA
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC:PATTern:DATA?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= "0xnn" n ::= {0,..,9 | A,..,F}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:IIC:PATTern:DATa2
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC:PATTern:DATa2?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= "0xnn" n ::= {0,..,9 | A,..,F}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:IIC[:SOURce]:CLOCk
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC[:SOURce]:CLOCk?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 } for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:IIC[:SOURce]:DATA
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC[:SOURce]:DATA?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15 } for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:IIC:TRIGger:QUALifier
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC:TRIGger:QUALifier?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {EQUal | NOTequal | LESSthan |
+            GREaterthan}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:IIC:TRIGger[:TYPE]
+            &lt;type&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:IIC:TRIGger[:TYPE]?</code></strong></td><td><strong class="userinput"><code>&lt;type&gt; ::= {STARt | STOP | READ7 |
+            READEeprom | WRITe7 | WRITe10 | NACKnowledge | ANACknowledge |
+            R7Data2 | W7Data2 | RESTart}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e5101"></a><p class="title"><b>:TRIGger:LIN Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:LIN Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:LIN:ID
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:ID?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= 7-bit integer in
+            decimal, &lt;nondecimal&gt;, or &lt;string&gt; from 0-63 or
+            0x00-0x3f (with Option
+            AMS)</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt; ::=
+            #Hnn where n ::= {0,..,9 | A,..,F} for
+            hexadecimal</code></strong></p><p><strong class="userinput"><code>&lt;nondecimal&gt;
+            ::= #Bnn...n where n ::= {0 | 1} for
+            binary</code></strong></p><p><strong class="userinput"><code>&lt;string&gt; ::=
+            "0xnn" where n ::= {0,..,9 | A,..,F} for
+            hexadecimal</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:LIN:SAMPlepoint
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:SAMPlepoint?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {60 | 62.5 | 68 | 70 | 75 | 80
+            | 87.5} in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:LIN:SIGNal:BAUDrate
+            &lt;baudrate&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:SIGNal:BAUDrate?</code></strong></td><td><strong class="userinput"><code>&lt;baudrate&gt; ::= {2400 | 9600 |
+            19200}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:LIN:SOURce
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:LIN:STANdard
+            &lt;std&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:STANdard?</code></strong></td><td><strong class="userinput"><code>&lt;std&gt; ::= {LIN13 |
+            LIN20}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:LIN:SYNCbreak
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:SYNCbreak?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= integer = {11 | 12 |
+            13}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:LIN:TRIGger
+            &lt;condition&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:LIN:TRIGger?</code></strong></td><td><p><strong class="userinput"><code>&lt;condition&gt; ::= {SYNCbreak} (without
+            Option AMS)</code></strong></p><p><strong class="userinput"><code>&lt;condition&gt;
+            ::= {SYNCbreak | ID} (with Option AMS)</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e5222"></a><p class="title"><b>:TRIGger:SEQuence Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:SEQuence Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:COUNt
+            &lt;count&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:COUNt?</code></strong></td><td><strong class="userinput"><code>&lt;count&gt; ::= integer in NR1
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:EDGE{1|2}
+            &lt;source&gt;, &lt;slope&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:EDGE{1|2}?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for the DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for the MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;slope&gt; ::=
+            {POSitive | NEGative}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+            ::= 1-2 or 1-4 in NR1
+            format</code></strong></p><p><strong class="userinput"><code>&lt;return_value&gt; ::=
+            query returns "NONE" if edge source is
+            disabled</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:FIND
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:FIND?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {PATTern1,ENTered |
+            PATTern1,EXITed | EDGE1 | PATTern1,AND,EDGE1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:PATTern{1|2}
+            &lt;value&gt;, &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:PATTern{1|2}?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;mask&gt; ::=
+            integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= "0xnnnnnn" n ::= {0,..,9 | A,..,F}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:RESet
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:RESet?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= {NONE | PATTern1,ENTered
+            | PATTern1,EXITed | EDGE1 | PATTern1,AND,EDGE1 | PATTern2,ENTered
+            | PATTern2,EXITed | EDGE2 |
+            TIMer}</code></strong></p><p><strong class="userinput"><code>Values used in find and
+            trigger stages not available. EDGE2 not available if EDGE2,COUNt
+            used in trigger stage.</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:TIMer
+            &lt;time_value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:TIMer?</code></strong></td><td><strong class="userinput"><code>&lt;time_value&gt; ::= time from 100 ns to 10
+            seconds in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SEQuence:TRIGger
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SEQuence:TRIGger?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {PATTern2,ENTered |
+            PATTern2,EXITed | EDGE2 | PATTern2,AND,EDGE2 | EDGE2,COUNt |
+            EDGE2,COUNt,NREFind}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e5346"></a><p class="title"><b>:TRIGger:SPI Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:SPI Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:SPI:CLOCk:SLOPe
+            &lt;slope&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:CLOCk:SLOPe?</code></strong></td><td><strong class="userinput"><code>&lt;slope&gt; ::= {NEGative |
+            POSitive}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:CLOCk:TIMeout
+            &lt;time_value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:CLOCk:TIMeout?</code></strong></td><td><strong class="userinput"><code>&lt;time_value&gt; ::= time in seconds in NR1
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:FRAMing
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:FRAMing?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {CHIPselect | NOTChipselect |
+            TIMeout}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:PATTern:DATA
+            &lt;value&gt;, &lt;mask&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:PATTern:DATA?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;mask&gt; ::=
+            integer or
+            &lt;string&gt;</code></strong></p><p><strong class="userinput"><code>&lt;string&gt;
+            ::= "0xnnnnnn" where n ::= {0,..,9 |
+            A,..,F}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:PATTern:WIDTh
+            &lt;width&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:PATTern:WIDTh?</code></strong></td><td><strong class="userinput"><code>&lt;width&gt; ::= integer from 4 to 32 in NR1
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:SOURce:CLOCk
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:SOURce:CLOCk?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for the DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;value&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for the MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:SOURce:DATA
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:SOURce:DATA?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for the DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;value&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for the MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:SPI:SOURce:FRAMe
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:SPI:SOURce:FRAMe?</code></strong></td><td><p><strong class="userinput"><code>&lt;value&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for the DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;value&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for the MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e5486"></a><p class="title"><b>:TRIGger:TV Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:TV Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:TV:LINE &lt;line
+            number&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:TV:LINE?</code></strong></td><td><strong class="userinput"><code>&lt;line number&gt; ::= integer in NR1
+            format</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:TV:MODE &lt;tv
+            mode&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:TV:MODE?</code></strong></td><td><strong class="userinput"><code>&lt;tv mode&gt; ::= {FIEld1 | FIEld2 | AFIelds |
+            ALINes | LINE | VERTical | LFIeld1 | LFIeld2 | LALTernate |
+            LVERtical}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:TV:POLarity
+            &lt;polarity&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:TV:POLarity?</code></strong></td><td><strong class="userinput"><code>&lt;polarity&gt; ::= {POSitive |
+            NEGative}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:TV:SOURce
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:TV:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt;}</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+            ::= 1-2 or 1-4 integer in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:TV:STANdard
+            &lt;standard&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:TV:STANdard?</code></strong></td><td><strong class="userinput"><code>&lt;standard&gt; ::= {GENeric | NTSC | PALM |
+            PAL | SECam | {P480L60HZ | P480} | {P720L60HZ | P720} |
+            {P1080L24HZ | P1080} | P1080L25HZ | {I1080L50HZ | I1080} |
+            I1080L60HZ}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e5566"></a><p class="title"><b>:TRIGger:USB Commands Summary:</b></p><div class="table-contents"><table summary=":TRIGger:USB Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:TRIGger:USB:SOURce:DMINus
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:USB:SOURce:DMINus?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for the DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for the MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:USB:SOURce:DPLus
+            &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:USB:SOURce:DPLus?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+            EXTernal} for the DSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+            {CHANnel&lt;n&gt; | DIGital0,..,DIGital15} for the MSO
+            models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt; ::= 1-2 or 1-4
+            in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:TRIGger:USB:SPEed
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:USB:SPEed?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {LOW |
+            FULL}</code></strong></td></tr><tr><td><strong class="userinput"><code>:TRIGger:USB:TRIGger
+            &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:TRIGger:USB:TRIGger?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {SOP | EOP | ENTersuspend |
+            EXITsuspend | RESet}</code></strong></td></tr></tbody></table></div></div><br class="table-break"><div class="table"><a name="d0e5644"></a><p class="title"><b>:WAVeform Commands Summary:</b></p><div class="table-contents"><table summary=":WAVeform Commands Summary" border="1" cellpadding="5" cellspacing="0" width="100%"><colgroup><col><col><col></colgroup><thead valign="bottom"><tr><th align="left">Command</th><th align="left">Query</th><th align="left">Options and Query Returns</th></tr></thead><tbody valign="top"><tr><td><strong class="userinput"><code>:WAVeform:BYTeorder
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:WAVeform:BYTeorder?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {LSBFirst |
+          MSBFirst}</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:COUNt?</code></strong></td><td><strong class="userinput"><code>&lt;count&gt; ::= an integer from 1 to 65536 in
+          NR1 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:DATA?</code></strong></td><td><p><strong class="userinput"><code>&lt;binary block length bytes&gt;,
+          &lt;binary data&gt;</code></strong></p><p><strong class="userinput"><code>For example,
+          to transmit 1000 bytes of data, the syntax would be:
+          #800001000&lt;1000 bytes of
+          data&gt;&lt;NL&gt;</code></strong></p><p><strong class="userinput"><code>8 is the
+          number of digits that
+          follow</code></strong></p><p><strong class="userinput"><code>00001000 is the number of
+          bytes to be transmitted</code></strong></p><p><strong class="userinput"><code>&lt;1000
+          bytes of data&gt; is the actual data</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:WAVeform:FORMat
+          &lt;value&gt;</code></strong></td><td><strong class="userinput"><code>:WAVeform:FORMat?</code></strong></td><td><strong class="userinput"><code>&lt;value&gt; ::= {WORD | BYTE |
+          ASCII}</code></strong></td></tr><tr><td><strong class="userinput"><code>:WAVeform:POINts
+          &lt;#&nbsp;points&gt;</code></strong></td><td><strong class="userinput"><code>:WAVeform:POINts?</code></strong></td><td><p><strong class="userinput"><code>&lt;#&nbsp;points&gt; ::= {100 | 250 | 500 |
+          1000 | &lt;points_mode&gt;} if waveform points mode is
+          NORMal</code></strong></p><p><strong class="userinput"><code>&lt;#&nbsp;points&gt; ::=
+          {100 | 250 | 500 | 1000 | 2000 ... 8000000 in 1-2-5 sequence |
+          &lt;points_mode&gt;} if waveform points mode is MAXimum or
+          RAW</code></strong></p><p><strong class="userinput"><code>&lt;points_mode&gt; ::=
+          {NORMal | MAXimum | RAW}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:WAVeform:POINts:MODE
+          &lt;points_mode&gt;</code></strong></td><td><strong class="userinput"><code>:WAVeform:POINts:MODE?</code></strong></td><td><p><strong class="userinput"><code>&lt;points_mode&gt; ::= {NORMal | MAXimum |
+          RAW}</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:PREamble?</code></strong></td><td><p><strong class="userinput"><code>&lt;preamble_block&gt; ::= &lt;format
+          NR1&gt;, &lt;type NR1&gt;,&lt;points NR1&gt;,&lt;count NR1&gt;,
+          &lt;xincrement NR3&gt;, &lt;xorigin NR3&gt;, &lt;xreference
+          NR1&gt;,&lt;yincrement NR3&gt;, &lt;yorigin NR3&gt;, &lt;yreference
+          NR1&gt;</code></strong></p><p><strong class="userinput"><code>&lt;format&gt; ::= an
+          integer in NR1 format:</code></strong></p><pre class="synopsis"> • 0 for BYTE format
+ • 1 for WORD format
+ • 2 for ASCii format</pre><p><strong class="userinput"><code>&lt;type&gt; ::= an
+          integer in NR1 format:</code></strong></p><pre class="synopsis"> • 0 for NORMal type
+ • 1 for PEAK detect type
+ • 2 for AVERage type
+ • 3 for HRESolution type</pre><p><strong class="userinput"><code>&lt;count&gt;
+          ::= Average count, or 1 if PEAK detect type or NORMal; an integer in
+          NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>:WAVeform:SOURce
+          &lt;source&gt;</code></strong></td><td><strong class="userinput"><code>:WAVeform:SOURce?</code></strong></td><td><p><strong class="userinput"><code>&lt;source&gt; ::= {CHANnel&lt;n&gt; |
+          FUNCtion | MATH | SBUS} for DSO
+          models</code></strong></p><p><strong class="userinput"><code>&lt;source&gt; ::=
+          {CHANnel&lt;n&gt; | POD{1 | 2} | BUS{1 | 2} | FUNCtion | MATH |
+          SBUS} for MSO models</code></strong></p><p><strong class="userinput"><code>&lt;n&gt;
+          ::= 1-2 or 1-4 in NR1 format</code></strong></p></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:TYPE?</code></strong></td><td><strong class="userinput"><code>&lt;return_mode&gt; ::= {NORM | PEAK | AVER |
+          HRES}</code></strong></td></tr><tr><td><strong class="userinput"><code>:WAVeform:UNSigned {{0 | OFF} |
+          {1 | ON}}</code></strong></td><td><strong class="userinput"><code>:WAVeform:UNSigned?</code></strong></td><td><strong class="userinput"><code>{0 | 1}</code></strong></td></tr><tr><td><strong class="userinput"><code>:WAVeform:VIEW
+          &lt;view&gt;</code></strong></td><td><strong class="userinput"><code>:WAVeform:VIEW?</code></strong></td><td><strong class="userinput"><code>&lt;view&gt; ::= {MAIN}</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:XINCrement?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= x-increment in the
+          current preamble in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:XORigin?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= x-origin value in the
+          current preamble in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:XREFerence?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= 0 (x-reference value in
+          the current preamble in NR1 format)</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:YINCrement?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= y-increment value in the
+          current preamble in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:YORigin?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= y-origin in the current
+          preamble in NR3 format</code></strong></td></tr><tr><td><strong class="userinput"><code>n/a</code></strong></td><td><strong class="userinput"><code>:WAVeform:YREFerence?</code></strong></td><td><strong class="userinput"><code>&lt;return_value&gt; ::= y-reference value in the
+          current preamble in NR1 format</code></strong></td></tr></tbody></table></div></div><br class="table-break"></div>
+</body></html>

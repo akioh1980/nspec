@@ -1,0 +1,42 @@
+#############################################
+# Setup command of nspec with cutoff 200kHz for DSO-X4024A
+# produced by Akio Hoshino
+# Version 0.5 (2018/10/31)
+#############################################
+#############################################
+#Initialize the instrument to a preset state.
+#############################################
+*RST
+#############################################
+#Set the time base mode to normal with the horizontal time at
+#50 ms/div with 0 s of delay referenced at the center of the graticule.
+#############################################
+#:TIMebase:RANGe 5E-4
+:TIMebase:DELay 0
+:TIMebase:REFerence CENTer
+#############################################
+# Set the vertical range to 1.6 volts full scale with center screen
+# at -0.4 volts with 1:1 probe attenuation and DC coupling.
+#############################################
+#:TIMebase:MODE MAIN
+:CHANnel1:PROBe 1
+:CHANnel1:RANGe 1.6
+:CHANnel1:OFFSet 0.0
+:CHANnel1:COUPling AC
+WAVEFORM:FORMAT ASCII
+WAVEFORM:POINTS MAX
+#############################################
+#Configure the instrument to trigger at -0.4 volts with normal
+#triggering.
+#############################################
+#:TRIGger:SWEep NORMal
+#:TRIGger:LEVel -0.4
+#:TRIGger:SLOPe POSitive
+#############################################
+#Configure the instrument for normal acquisition.
+#############################################
+:ACQuire:TYPE NORMal
+#############################################
+:DISPlay:ANNotation:TEXT "200kHz"
+:DISPlay:ANNotation:X1Position 10
+:DISPlay:ANNotation:Y1Position 10

@@ -1,0 +1,36 @@
+#############################################
+# Setup command of nspec with cutoff 2kHz for DSO-X4024A
+# produced by Akio Hoshino
+# Version 0.5 (2018/10/31)
+#############################################
+#############################################
+#Initialize the instrument to a preset state.
+#############################################
+*RST
+#############################################
+# Preamble for initialization
+#Keysight InfiniiVision 2000 X-Series Oscilloscopes Programmer's Guide
+#737
+#############################################
+:ACQuire:COUNT 30
+:ACQUIRE:TYPE NORMAL
+:WAVEFORM:FORMat ASCII
+:WAVEFORM:POINTS:MODE MAX
+:WAVEFORM:POINTS 10000 
+:ACQUIRE:TYPE NORM
+
+:TIMEBASE:MODE MAIN
+:TIMEBASE:POSITION 0.0
+:TIMEBASE:RANGE 1e-3
+:TIMEBASE:REFERENCE CENTER
+:TIMEBASE:SCALE 1e-5
+:TIMEBASE:VERNiER 1
+#############################################
+#:WAVEFORM:XINCrement 1e-8
+#:WAVEFORM:XORigin -5e-4
+#:WAVEFORM:XREFerence 0
+#:WAVEFORM:YINCrement 6e-3
+#:WAVEFORM:YORigin 0
+#:WAVEFORM:YREFerence 0.0
+#############################################
+

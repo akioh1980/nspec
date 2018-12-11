@@ -1,0 +1,46 @@
+#############################################
+# Setup command for DSO-X4024A
+# produced by Akio Hoshino
+# Version 0.5 (2018/10/31)
+#############################################
+
+#############################################
+#Clear status
+#############################################
+*CLS
+#############################################
+#Initialize the instrument to a preset state.
+#############################################
+*RST
+#############################################
+# Preamble for initialization
+#Keysight InfiniiVision 2000 X-Series Oscilloscopes Programmer's Guide
+#737
+#############################################
+:ACQuire:COUNT 30
+:ACQUIRE:TYPE NORMAL
+:WAVeform:FORMat ASCII
+:WAVeform:POINts
+:WAVeform:TYPE
+:WAVeform:XINCrement
+:WAVeform:XORigin
+:WAVeform:XREFerence
+:WAVeform:YINCrement
+:WAVeform:YORigin
+:WAVeform:YREFerence
+#############################################
+#Set the time base mode to normal with the horizontal time at
+#50 ms/div with 0 s of delay referenced at the center of the graticule.
+#############################################
+:TIMebase:RANGe 5E-4
+:TIMebase:DELay 0
+:TIMebase:REFerence CENTer
+#############################################
+# Set the vertical range to 1.6 volts full scale with center screen
+# at -0.4 volts with 10:1 probe attenuation and DC coupling.
+#############################################
+:CHANnel1:PROBe 1
+:CHANnel1:RANGe 1.6
+:CHANnel1:OFFSet -0.4
+:CHANnel1:COUPling DC
+#############################################

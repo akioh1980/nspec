@@ -1,0 +1,64 @@
+import "package/tgz", "autoclean"
+  import "md5"
+
+task :default => [:install]
+
+#gen AutoClean
+slocal=ENV["SLOCAL"]
+target="text_client.rb"
+
+if (slocal.nil?)
+    print "\n Environment variable SLOCAL not defined"
+    exit -1
+
+    end
+
+gen Package::Tgz, "pkg/foo", 
+    :manifest,
+    :version => "1.0.1", 
+    :files => sys["*.rb"],
+    :extension => ".tar.gz"
+
+task :mytask do
+        puts "Hello, mytask running."
+end
+
+task :mytask2 do |t|
+  puts t.name
+end
+
+
+file :install => ["init_linux"] do
+ 
+  #sys.cp "init_linux" "#{slocal}/bin/fh_cfg_to_inp"
+  sys "cp init_linux ${SLOCAL}/bin/#{target}"
+
+  
+end
+
+###############################################
+# task :build => sys["init_linux"] do
+
+
+
+#   sys "rubyscript2exe init.rb"
+
+  
+# end
+
+file "init_linux" => sys["*.rb"] do
+
+  sys "rubyscript2exe init.rb"
+
+
+end
+
+task :clean do
+  sys.rm sys["*.inp","*.pdf","*.ps","zbuff*","test*","core"]
+  sys.rm sys["init_linux"]
+  sys.rm sys["core"]
+end
+
+task :uninstall do
+   sys "rm ${SLOCAL}/bin/#{target}"
+end
